@@ -1,0 +1,68 @@
+.card-div-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+.card-div-2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 3rem;
+}
+.card-body{
+    display: flex;
+}
+.card-section{
+    width: 75%;
+    margin: auto;
+    justify-content: center;
+}
+.avgPrice{
+    background-color: #EB4848;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 42px;
+    border-radius: 10px;
+    width: 167px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+.card-body-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card-body-para{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8C8989;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .card-section{
+        width: 95%;
+    }
+    .card-body{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-div-1{
+        grid-template-columns: 1fr;
+    }
+    .card-body{
+        display: flex;
+    }
+    .card-div-2{
+        grid-template-columns: 1fr;
+    }
+    .avgPrice{
+        font-size: 12px;
+    }
+}

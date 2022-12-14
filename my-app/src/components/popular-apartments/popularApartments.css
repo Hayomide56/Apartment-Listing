@@ -1,0 +1,125 @@
+.popular-apartments{
+    width: 75%;
+    margin: auto;
+    margin-top: 7rem;
+}
+.popular-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.the-apartments{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    margin-top: 5rem;
+}
+.card-info{
+    padding: 1rem 0rem 0rem 1rem;
+    margin-bottom: 1rem;
+}
+.card-heading{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8C8989;
+}
+.card-details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 25px;
+}
+.card-price{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.card-rating{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+}
+.card-star{
+    color: #EB4848;
+    font-size: large;
+    margin-right: 20px;
+}
+.card-border{
+    border-radius: 10px 10px 0px 0px;
+}
+.load-more{
+    border: 0;
+    background-color: #EB4848;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    padding: 1rem 3rem;  
+}
+.reload-icon{
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-right: 10px;
+}
+.painter-div{
+    width: 75%;
+    margin: auto;
+    margin-left: 25%;
+}
+.button-div{
+    margin: 4rem 0rem;
+    width: 75%;
+    margin-left: 40%;
+    justify-content: center;
+}
+.painter-popular{
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .popular-apartments{
+        width: 95%;
+    }
+    .popular-text{
+        font-size: 34px;
+    }
+    .the-apartments{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        margin-top: 3rem;
+    }
+    .painter-div{
+        margin-left: 17%;
+    }
+    .painter-popular{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .popular-text{
+        font-size: 20px;
+    }
+    .the-apartments{
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+    .button-div{
+        margin-left: 22%;
+    }
+}

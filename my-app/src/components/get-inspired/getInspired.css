@@ -1,0 +1,103 @@
+.getInspired{
+    margin-top: 25rem;
+}
+.get-inspired{
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.getInspired-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    width: 75%;
+}
+.getInspired-para{
+    font-size: 14px;
+    font-weight: 500;
+    color: #838181;
+    font-family: 'Montserrat', sans-serif;
+    width: 75%;
+}
+.inspired-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    width: 75%;
+    margin: auto;
+    margin-top: 5rem;
+}
+.inspired-img{
+    margin-right: 2rem;
+}
+.inspired-card{
+    display: flex;
+    padding: 1rem 2rem 1rem 2rem;
+    width: 400px;
+    height: 100px;
+    box-shadow: 0px 2px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.inspired-text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+}
+.inspired-para{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #8C8989;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .getInspired{
+        margin-top: 50rem;
+    }
+    .get-inspired{
+        width: 90%;
+        display: block;
+    }
+    .getInspired-text{
+        font-size: 34px;
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .inspired-break{
+        display: none;
+    }
+    .getInspired-para{
+        font-size: 20px;
+        width: 95%;
+    }
+    .inspired-cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        width: 95%;
+    }
+    .inspired-card{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .getInspired{
+        margin-top: 95rem;
+    }
+    .getInspired-para{
+        font-size: 16px;
+        text-align: justify;
+    }
+    .getInspired-text{
+        font-size: 22px;
+    }
+    .inspired-cards{
+        grid-template-columns: 1fr;
+        margin-top: 3rem;
+    }
+}

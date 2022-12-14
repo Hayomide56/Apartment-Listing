@@ -1,0 +1,54 @@
+.propertyType{
+    background-color: #F5F5F5;
+    height: 20rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+.arrow-color{
+    color: #EB4848;
+    width: 20px;
+    font-size: xx-large;
+}
+.property-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    width: 75%;
+}
+.card-div-3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .card-div-3{
+        grid-template-columns: 1fr 1fr;
+        width: 95%;
+        gap: 1rem;
+    }
+    .property-heading{
+        font-size: 36px;
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card-div-3{
+        grid-template-columns:1fr;
+        margin-top: 3rem;
+    }
+    .property-heading{
+        font-size: 20px;
+        width: 75%;
+    }
+    .arrow-color{
+        font-size: small;
+    }
+}

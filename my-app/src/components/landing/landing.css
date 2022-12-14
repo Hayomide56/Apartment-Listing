@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.banner-div{
+    background-image: url(./banner.png);
+    padding: 0 50px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    height: 99vh;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    padding-top: 12px;
+}
+.nav-list > li{
+    margin-right: 10px;
+}
+.default-btn{
+    background-color: #eb4848;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+.sign-up{
+    background-color: white;
+    padding: 10px;
+    border: none;
+}
+.user-logo{
+    margin-right: 5px;
+    background-color: grey;
+    opacity: 60%;
+    padding: 2px;
+}
+.tagLine{
+    margin-top: 150px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: 700;
+    width: 528px;
+}
+.card-div{
+    display: flex;
+    background-color: white;
+    width: 45%;
+    padding: 0 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: px;
+    margin-top: 50px;
+}
+.border-line{
+    border-right: 1px solid black;
+}
+.card-div > div{
+    padding-right: 10px;
+    text-align: center;
+    margin: auto;
+}
+.banner-video{
+    margin-top: 100px;
+    display: flex;
+}
+.banner-video-header{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+.banner-video-anchor{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.banner-youtube{
+    color: white;
+    background-color: red;
+    width: 2rem;
+    height: 2rem;
+    padding: .2rem;
+    border-radius: .5rem;
+    margin-right: 1rem;
+    margin-top: .5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .banner-div{
+        background-position: 48%;
+        height: 70vh;
+    }
+    .tagLine{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tagLine{
+        margin-top: 70px;
+        font-size: 30px;
+        width: 300px;
+    }
+    .banner-div{
+        padding: 0 10px;
+        height: 80vh;
+    }
+    .card-div{
+        display: block;
+        width: 50%;
+    }
+    .border-line{
+        border-bottom: 1px solid black;
+        border-right: 0px;
+    }
+    .banner-video{
+        margin-top: 80px;
+    }
+    .banner-video-header{
+        font-size: 12px;
+        width: 80%;
+    }
+    .banner-video-anchor{
+        font-size: 10px;
+    }
+    .banner-youtube{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-right: 0.7rem;
+    }
+    .sign-up{
+        padding: 4px;
+    }
+    .default-btn{
+        padding: 4px;
+    }
+}
