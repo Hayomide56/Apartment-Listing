@@ -122,6 +122,6 @@
     margin-top: 2rem;
   }
   .button-div {
-    margin-left: 22%;
+    margin-left: 20% !important;
   }
 }
